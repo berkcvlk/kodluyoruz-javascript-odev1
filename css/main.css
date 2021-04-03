@@ -19,25 +19,8 @@ body {
 
 .logo {
     margin-bottom: 50px;
-    animation-name: lg-animate;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes lg-animate {
-    0% {
-        filter:none;
-    }
-    33% {
-        filter: invert();
-    }
-    66% {
-        filter: grayscale();
-    }
-    100% {
-        filter:none;
-    }
+    filter: grayscale();
+    opacity: 25%;
 }
 
 .greetings {
@@ -57,7 +40,7 @@ body {
 
 /* Clock Styles */
 .clock {
-    width: 390px;
+    width: 450px;
     font-size: 5em;
     font-weight: 600;
     color: orange;
