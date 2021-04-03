@@ -57,6 +57,7 @@ body {
 
 /* Clock Styles */
 .clock {
+    width: 390px;
     font-size: 5em;
     font-weight: 600;
     color: orange;
